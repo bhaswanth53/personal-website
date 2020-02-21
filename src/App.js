@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import Navbar from './Components/Navbar'
+import Banner from './Components/Banner'
+import About from './Components/About'
 
 class App extends Component {
   render() {
     return (
-      <h1>Welcome to my app Bhaswanth Chiruthanuru</h1>
+      <div id="body">
+        <Navbar />
+        <Banner />
+        <About />
+      </div>
     )
   }
 }
