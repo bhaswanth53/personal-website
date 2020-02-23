@@ -4,7 +4,7 @@ import UIKIT from 'uikit'
 class Banner extends Component {
     render() {
         return (
-            <section className="banner">
+            <section className="banner" id="banner-section">
                 <div className="uk-grid-match" data-uk-grid>
                     <div className="uk-width-1-6@m uk-visible@m">
                         <div className="right-bar">

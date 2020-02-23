@@ -5,11 +5,13 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import Overlay from './Components/Overlay'
 
 class App extends Component {
   render() {
     return (
       <div id="body">
+        <Overlay />
         <Navbar />
         <Banner />
         <About />

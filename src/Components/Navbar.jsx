@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import UIKIT from 'uikit'
-import Logo from '../images/logo-small.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Logo from '../images/logo-pic-small.png'
 import Sidebar from './Sidebar'
 
 class Navbar extends Component {
@@ -15,9 +16,9 @@ class Navbar extends Component {
                     </div>
                     <div className="uk-navbar-right uk-visible@m">
                         <ul className="uk-navbar-nav">
-                            <li><a href="#"><span>01.</span> About</a></li>
-                            <li><a href="#"><span>02.</span> Work</a></li>
-                            <li><a href="#"><span>03.</span> Contact</a></li>
+                            <li><AnchorLink offset='100' href="#about-section"><span>01.</span> About</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#projects-section"><span>02.</span> Work</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#contact-section"><span>03.</span> Contact</AnchorLink></li>
                             <li className="resume"><a href="#"><span>Resume</span></a></li>
                         </ul>
                     </div>

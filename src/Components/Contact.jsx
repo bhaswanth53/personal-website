@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Contact extends Component {
     render() {
         return (
-            <section className="contact-section" data-uk-scrollspy="cls:uk-animation-scale-up">
+            <section className="contact-section" id="contact-section" data-uk-scrollspy="cls:uk-animation-scale-up">
                 <div className="uk-inline uk-width-1-1 sub-div uk-visible@m">
                     <div className="uk-flex-center" data-uk-grid>
                         <div className="uk-width-3-4@m">

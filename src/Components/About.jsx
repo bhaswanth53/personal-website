@@ -4,7 +4,7 @@ import profile from '../images/profile.jpg'
 class About extends Component {
     render() {
         return (
-            <section className="about-section">
+            <section className="about-section" id="about-section">
                 <div className="uk-flex-center" data-uk-grid>
                     <div className="uk-width-3-4@m">
                         <div className="uk-grid-match" data-uk-grid>

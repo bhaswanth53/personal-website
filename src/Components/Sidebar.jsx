@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import UIKIT from 'uikit'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Sidebar extends Component {
     render() {
@@ -11,9 +12,9 @@ class Sidebar extends Component {
                     </a>
                     <div className="uk-text-center nav-div">
                         <ul className="uk-nav uk-nav-default">
-                            <li><a href="#"><span>01.</span><br/> About</a></li>
-                            <li><a href="#"><span>02.</span><br/> Work</a></li>
-                            <li><a href="#"><span>03.</span><br/> Contact</a></li>
+                            <li><AnchorLink offset='100' href="#about-section"><span>01.</span><br/> About</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#projects-section"><span>02.</span><br/> Work</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#contact-section"><span>03.</span><br/> Contact</AnchorLink></li>
                             <li className="resume"><a href="#"><span>Resume</span></a></li>
                         </ul>
                     </div>
