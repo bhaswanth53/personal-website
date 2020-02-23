@@ -13,8 +13,7 @@ class Sidebar extends Component {
                         <ul className="uk-nav uk-nav-default">
                             <li><a href="#"><span>01.</span><br/> About</a></li>
                             <li><a href="#"><span>02.</span><br/> Work</a></li>
-                            <li><a href="#"><span>03.</span><br/> Experience</a></li>
-                            <li><a href="#"><span>04.</span><br/> Contact</a></li>
+                            <li><a href="#"><span>03.</span><br/> Contact</a></li>
                             <li className="resume"><a href="#"><span>Resume</span></a></li>
                         </ul>
                     </div>

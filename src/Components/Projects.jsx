@@ -6,10 +6,10 @@ class Projects extends Component {
             <section className="projects-section">
                 <div className="uk-flex-center" data-uk-grid>
                     <div className="uk-width-3-4@m">
-                        <h3 className="uk-heading-line about-head"><span><label>03.</label> Some Things I've Built</span></h3>
+                        <h3 className="uk-heading-line about-head"><span><label>02.</label> Some Things I've Built</span></h3>
                         <br />
                         <div className="uk-grid-match" data-uk-grid>
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -24,7 +24,7 @@ class Projects extends Component {
                                     </div>
                                     <div className="project-card-body">
                                         <h3>Tailwind Material</h3>
-                                        <p>Tailwind Material is a modified configuration file for <a href="https://tailwindcss.com/" className="uk-button uk-button-text" target="_blank">Tailwind CSS</a> to add additional color schemes and themes.</p>
+                                        <p>Tailwind Material is a modified configuration file for <a href="https://tailwindcss.com/" className="uk-button uk-button-text" target="_blank" rel="noopener noreferrer">Tailwind CSS</a> to add additional color schemes and themes.</p>
                                     </div>
                                     <div className="project-card-footer">
                                         <span>Javascript</span>
@@ -32,7 +32,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -40,7 +40,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/locus" target="_blank"><i className="fab fa-github"></i></a>
+                                                <a href="https://github.com/bhaswanth53/locus" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                                                 {/* <a href=""><i className="fas fa-external-link-alt"></i></a> */}
                                             </div>
                                         </div>
@@ -48,7 +48,7 @@ class Projects extends Component {
                                     <div className="project-card-body">
                                         <h3>Locus Framework</h3>
                                         <p>
-                                            Locus is a MVC framework for PHP which is developed using OOPS patterns and <a href="http://flightphp.com/" className="uk-button uk-button-text" target="_blank">Flight PHP</a> Framework.
+                                            Locus is a MVC framework for PHP which is developed using OOPS patterns and <a href="http://flightphp.com/" className="uk-button uk-button-text" target="_blank" rel="noopener noreferrer">Flight PHP</a> Framework.
                                         </p>
                                     </div>
                                     <div className="project-card-footer">
@@ -58,7 +58,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -66,8 +66,8 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/Time-Slot-Manager" target="_blank"><i className="fab fa-github"></i></a>
-                                                <a href="https://bhaswanth53.github.io/Time-Slot-Manager/index.html" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                                                <a href="https://github.com/bhaswanth53/Time-Slot-Manager" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                                                <a href="https://bhaswanth53.github.io/Time-Slot-Manager/index.html" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -92,15 +92,15 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/Irona-Admin" target="_blank"><i className="fab fa-github"></i></a>
-                                                <a href="https://bhaswanth53.github.io/Irona-Admin/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                                                <a href="https://github.com/bhaswanth53/Irona-Admin" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                                                <a href="https://bhaswanth53.github.io/Irona-Admin/" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="project-card-body">
                                         <h3>Irona Admin</h3>
                                         <p>
-                                            Irona Admin is the Admin Panel designed using <a href="https://getuikit.com/" className="uk-button uk-button-text" target="_blank">UIKIT Framework</a>.
+                                            Irona Admin is the Admin Panel designed using <a href="https://getuikit.com/" className="uk-button uk-button-text" target="_blank" rel="noopener noreferrer">UIKIT Framework</a>.
                                         </p>
                                     </div>
                                     <div className="project-card-footer">
@@ -111,7 +111,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -119,7 +119,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/mailer" target="_blank"><i className="fab fa-github"></i></a>
+                                                <a href="https://github.com/bhaswanth53/mailer" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                                                 {/* <a href="https://bhaswanth53.github.io/Irona-Admin/" target="_blank"><i className="fas fa-external-link-alt"></i></a> */}
                                             </div>
                                         </div>
@@ -127,7 +127,7 @@ class Projects extends Component {
                                     <div className="project-card-body">
                                         <h3>Mailer</h3>
                                         <p>
-                                            Mailer is a package for PHP which is designed using <a href="https://github.com/PHPMailer/PHPMailer" className="uk-button uk-button-text" target="_blank">PHP Mailer</a> package in order to send template based email smtp.
+                                            Mailer is a package for PHP which is designed using <a href="https://github.com/PHPMailer/PHPMailer" className="uk-button uk-button-text" target="_blank" rel="noopener noreferrer">PHP Mailer</a> package in order to send template based email smtp.
                                         </p>
                                     </div>
                                     <div className="project-card-footer">
@@ -137,7 +137,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -145,7 +145,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/ynotphp" target="_blank"><i className="fab fa-github"></i></a>
+                                                <a href="https://github.com/bhaswanth53/ynotphp" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                                                 {/* <a href="https://bhaswanth53.github.io/Irona-Admin/" target="_blank"><i className="fas fa-external-link-alt"></i></a> */}
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="uk-width-1-2@s uk-width-1-3@m">
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
                                 <div className="uk-card uk-card-body project-card">
                                     <div className="uk-grid-match" data-uk-grid>
                                         <div className="uk-width-1-2">
@@ -170,7 +170,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
-                                                <a href="https://github.com/bhaswanth53/mailer" target="_blank"><i className="fab fa-github"></i></a>
+                                                <a href="https://github.com/bhaswanth53/mailer" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                                                 {/* <a href="https://bhaswanth53.github.io/Irona-Admin/" target="_blank"><i className="fas fa-external-link-alt"></i></a> */}
                                             </div>
                                         </div>

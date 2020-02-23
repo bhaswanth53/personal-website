@@ -74,6 +74,11 @@ h2 {
   font-family: 'Rubik', sans-serif;
 }
 
+.cus-nav .uk-logo img {
+  width: 100px;
+  padding: 10px;
+}
+
 .cus-nav .uk-logo:hover {
   color: #11d9b8;
 }
@@ -182,6 +187,11 @@ h2 {
 .right-bar ul li a i {
   color: rgb(136, 146, 176);
   font-size: 20px;
+  transition: 0.5s;
+}
+
+.right-bar ul li a:hover i {
+  color: #11d9b8;
 }
 
 .right-bar ul li:not(.line-li) {
@@ -205,6 +215,15 @@ h2 {
   font-size: 15px;
   font-family: 'PT Mono', monospace;
   letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.left-bar .email a {
+  color: rgb(136, 146, 176);
+}
+
+.left-bar .email a:hover {
+  color: #11d9b8;
 }
 
 .left-bar ul {
@@ -362,6 +381,83 @@ h2 {
   margin-right: 10px;
 }
 
+/* Contact Section */
+.contact-section {
+  min-height: 90vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-section .head-label {
+  margin: 0;
+  color: #11d9b8;
+  font-family: 'PT Mono', monospace;
+  font-size: 18px;
+  letter-spacing: 1px;;
+}
+
+.contact-section h1 {
+  margin: 0;
+  color: rgb(204, 214, 246);
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.contact-section .text {
+  color: rgb(136, 146, 176);
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.contact-section .sub-div {
+  min-height: 90vh;
+}
+
+.contact-section table tr td {
+  color: rgb(136, 146, 176);
+  font-size: 15px;
+  font-family: 'PT Mono', monospace;
+}
+
+.contact-section table tr td span i {
+  color: #11d9b8;
+  font-size: 20px;
+  border: 1px solid #11d9b8;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.contact-section .m-div {
+  max-width: 90%;
+}
+
+.contact-section .m-div .text {
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(2, 12, 27);
+}
+
+footer .text {
+  color: rgb(136, 146, 176);
+  font-size: 15px;
+  font-family: 'PT Mono', monospace;
+  margin: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+footer ul li a {
+  color: rgb(136, 146, 176);
+}
+
 /* Media Queries */
 @media (min-width: 480px) {
   .sm\:red {
@@ -403,6 +499,16 @@ h2 {
 
   .projects-section {
     padding: 0;
+  }
+
+  .contact-section {
+    padding: 0;
+  }
+
+  .contact-section .text {
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
   }
 }
 

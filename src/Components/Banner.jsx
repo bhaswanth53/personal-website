@@ -19,7 +19,7 @@ class Banner extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="uk-width-3-4@m">
+                    <div className="uk-width-3-4@m" data-uk-scrollspy="cls:uk-animation-fade">
                         <div className="banner-div">
                             <p className="hi">Hi, my name is</p>
                             <p className="h1-white">Bhaswanth Chiruthanuru</p>
