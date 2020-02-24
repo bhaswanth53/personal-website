@@ -15,7 +15,7 @@ class Sidebar extends Component {
                             <li><AnchorLink offset='100' href="#about-section"><span>01.</span><br/> About</AnchorLink></li>
                             <li><AnchorLink offset='100' href="#projects-section"><span>02.</span><br/> Work</AnchorLink></li>
                             <li><AnchorLink offset='100' href="#contact-section"><span>03.</span><br/> Contact</AnchorLink></li>
-                            <li className="resume"><a href="#"><span>Resume</span></a></li>
+                            <li className="resume"><a href="/resume" target="_blank"><span>Resume</span></a></li>
                         </ul>
                     </div>
                 </div>
