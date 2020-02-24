@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import UIKIT from 'uikit'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Banner extends Component {
     render() {
@@ -24,10 +25,12 @@ class Banner extends Component {
                             <p className="hi">Hi, my name is</p>
                             <p className="h1-white">Bhaswanth Chiruthanuru</p>
                             <p className="h1-grey">I build things for the web.</p>
-                            <p className="text">I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
-                            <a href="#">
+                            <p className="text">
+                                I'm a passionate full-stack developer known for the quality apps produced for Companies and Entrepreneurs around the globe to make their business ideas come true.
+                            </p>
+                            <AnchorLink offset='100' href="#contact-section">
                                 <button className="uk-button uk-button-large touch">Get In Touch</button>
-                            </a>
+                            </AnchorLink>
                         </div>
                     </div>
                     <div className="uk-width-1-6@m uk-visible@m">

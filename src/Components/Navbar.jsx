@@ -10,9 +10,9 @@ class Navbar extends Component {
             <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
                 <nav className="uk-navbar-container cus-nav" data-uk-navbar>
                     <div className="uk-navbar-left">
-                        <a className="uk-navbar-item uk-logo" href="#">
+                        <AnchorLink className="uk-navbar-item uk-logo" href="#banner-section" offset='100'>
                             <img src={Logo} alt="Logo" />
-                        </a>
+                        </AnchorLink>
                     </div>
                     <div className="uk-navbar-right uk-visible@m">
                         <ul className="uk-navbar-nav">

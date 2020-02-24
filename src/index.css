@@ -303,6 +303,21 @@ h2 {
   border: 3px solid rgba(17,217,184,0.6);
 }
 
+.about-section a {
+  color: #11d9b8;
+  text-transform: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+.about-section a:hover {
+  color: #11d9b8;
+}
+
+.about-section a::before {
+  border-bottom: 1px solid #11d9b8;
+}
+
 /* Projects Section */
 .projects-section {
   min-height: 90vh;
@@ -533,13 +548,13 @@ footer ul li a {
 }
 
 /* Media Queries */
-@media (min-width: 480px) {
+@media (min-width: 640px) {
   .sm\:red {
     color: red;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .banner .h1-white {
     color: rgb(204, 214, 246);
     font-size: 50px;
@@ -586,13 +601,13 @@ footer ul li a {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .lg\:red {
     color: red;
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1600px) {
   .xl\:red {
     color: red;
   }
