@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import profile from '../images/profile.jpg'
+import profile from '../images/me.jpg'
 
 class About extends Component {
     render() {
@@ -13,9 +13,9 @@ class About extends Component {
                                 <div className="uk-hidden@m about-image-m">
                                     <img src={profile} alt="Profile Pic" />
                                 </div>
-                                <p>Hello! I'm Bhaswanth, a paassionate full-stack developer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.</p>
+                                <p>Hello! I'm Bhaswanth, a passionate full-stack developer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.</p>
                                 <p>
-                                    Shortly after finishing B.Tech from <a href="http://www.nbkrist.org/" className="uk-button uk-button-text" target="_blank">N.B.K.R Institute Of Science & Technology</a>, I worked with so many freelance and full-time teams in order to earn experience and strong knowledge in my field.
+                                    Shortly after finishing B.Tech from <a href="http://www.nbkrist.org/" className="uk-button uk-button-text" target="_blank">N.B.K.R Institute Of Science & Technology</a>, I worked with so many freelance and full-time teams in order to earn experience and strong knowledge in my field for more than 2 years.
                                 </p>
                                 <p>Here are a few technologies I've been working with recently:</p>
                                 <div className="uk-grid-match uk-margin-top uk-visible@m" data-uk-grid>
@@ -24,11 +24,12 @@ class About extends Component {
                                             <li><i className="fab fa-js"></i> Javascript</li>
                                             <li><i className="fab fa-vuejs"></i> Vue JS</li>
                                             <li><i className="fab fa-react"></i> React JS</li>
+                                            <li><i className="fab fa-node-js"></i> Node JS & Mongo DB</li>
                                         </ul>
                                     </div>
                                     <div className="uk-width-1-2@m">
                                         <ul className="uk-list">
-                                            <li><i className="fab fa-php"></i> PHP</li>
+                                            <li><i className="fab fa-php"></i> PHP & MySql</li>
                                             <li><i className="fab fa-html5"></i> HTML & CSS</li>
                                             <li><i className="fab fa-python"></i> Python</li>
                                         </ul>
