@@ -15,7 +15,7 @@ class About extends Component {
                                 </div>
                                 <p>Hello! I'm Bhaswanth, a passionate full-stack developer who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.</p>
                                 <p>
-                                    Shortly after finishing B.Tech from <a href="http://www.nbkrist.org/" className="uk-button uk-button-text" target="_blank">N.B.K.R Institute Of Science & Technology</a>, I worked with so many freelance and full-time teams in order to earn experience and strong knowledge in my field for more than 2 years.
+                                    Shortly after finishing B.Tech from <a href="http://www.nbkrist.org/" className="uk-button uk-button-text" target="_blank" rel="noopener noreferrer">N.B.K.R Institute Of Science & Technology</a>, I worked with so many freelance and full-time teams in order to earn experience and strong knowledge in my field for more than 2 years.
                                 </p>
                                 <p>Here are a few technologies I've been working with recently:</p>
                                 <div className="uk-grid-match uk-margin-top uk-visible@m" data-uk-grid>
@@ -45,6 +45,7 @@ class About extends Component {
                                             <li><i className="fab fa-php"></i> PHP</li>
                                             <li><i className="fab fa-html5"></i> HTML & CSS</li>
                                             <li><i className="fab fa-python"></i> Python</li>
+                                            <li><i className="fab fa-node-js"></i> Node JS & Mongo DB</li>
                                         </ul>
                                     </div>
                                 </div>

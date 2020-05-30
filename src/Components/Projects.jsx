@@ -40,6 +40,32 @@ class Projects extends Component {
                                         </div>
                                         <div className="uk-width-1-2 uk-text-right link-icons">
                                             <div className="uk-button-group uk-align-right">
+                                                <a href="https://github.com/bhaswanth53/credstore" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                                                <a href="https://credstore.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="project-card-body">
+                                        <h3>Credstore</h3>
+                                        <p>
+                                            Credstore is a open source web application to store credentials and passwords, website links and notes.
+                                        </p>
+                                    </div>
+                                    <div className="project-card-footer">
+                                        <span>PHP</span>
+                                        <span>Javascript</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">
+                                <div className="uk-card uk-card-body project-card">
+                                    <div className="uk-grid-match" data-uk-grid>
+                                        <div className="uk-width-1-2">
+                                            <span className="icon"><i className="far fa-folder-open"></i></span>
+                                        </div>
+                                        <div className="uk-width-1-2 uk-text-right link-icons">
+                                            <div className="uk-button-group uk-align-right">
                                                 <a href="https://github.com/bhaswanth53/locus" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
                                                 {/* <a href=""><i className="fas fa-external-link-alt"></i></a> */}
                                             </div>
