@@ -6,7 +6,7 @@ class Projects extends Component {
             <section className="projects-section" id="projects-section">
                 <div className="uk-flex-center" data-uk-grid>
                     <div className="uk-width-3-4@m">
-                        <h3 className="uk-heading-line about-head"><span><label>02.</label> Some Things I've Built</span></h3>
+                        <h3 className="uk-heading-line about-head"><span><label>03.</label> Some Things I've Built</span></h3>
                         <br />
                         <div className="uk-grid-match" data-uk-grid>
                             <div className="uk-width-1-2@s uk-width-1-3@m" data-uk-scrollspy="cls:uk-animation-fade">

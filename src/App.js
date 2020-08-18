@@ -6,6 +6,7 @@ import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Overlay from './Components/Overlay'
+import Skills from './Components/Skills'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Navbar />
         <Banner />
         <About />
+        <Skills />
         <Projects />
         <Contact />
         <Footer />

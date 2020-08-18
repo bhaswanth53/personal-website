@@ -241,6 +241,47 @@ h2 {
   border-bottom: calc(.2px + .05em) solid rgb(23, 42, 69) !important;
 }
 
+/* Skill Section */
+.skill-section {
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skill-section .idl-card {
+  text-align: center;
+  background: rgb(17,217,184);
+  background: radial-gradient(circle, rgba(17,217,184,1) 50%, rgba(4,191,160,1) 100%);
+}
+.skill-section .about-head {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.skill-section .about-head span {
+  color: rgb(204, 214, 246);
+  letter-spacing: 1px;;
+}
+
+.skill-section .about-head span label {
+  color: #11d9b8;
+  font-family: 'PT Mono', monospace;
+}
+.skill-section .skillset .card {
+  border: 1px solid #11d9b8;
+  text-align: center;
+}
+.skill-section .skillset .card p {
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
+  color: rgb(136, 146, 176);
+  margin: 0;
+  padding: 8px 0px;
+}
+.skill-section .skillset .card p i {
+  color: #11d9b8;
+  margin-right: 10px;
+}
+/* End of skill section */
+
 /* About Section */
 .about-section {
   min-height: 90vh;
@@ -431,7 +472,7 @@ h2 {
 
 .contact-section table tr td {
   color: rgb(136, 146, 176);
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'PT Mono', monospace;
 }
 
