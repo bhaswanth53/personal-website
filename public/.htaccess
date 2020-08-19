@@ -1,0 +1,17 @@
+/Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^bhaswanth.com/[nc]
+RewriteRule ^(.*)$ http://www.bhaswanth.com//$1 [r=301,nc]
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+//Prevent directory listings
+Options All -Indexes
+ 
