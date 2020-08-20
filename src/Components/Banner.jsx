@@ -36,7 +36,7 @@ class Banner extends Component {
                     <div className="uk-width-1-6@m uk-visible@m">
                         <div className="left-bar">
                             <ul className="uk-nav uk-nav-default  uk-position-bottom-right uk-position-fixed">
-                                <li className="email"><a href="#">bhaswanthkumar6@gmail.com</a></li>
+                                <li className="email"><a href="#">bhaswanth1997@gmail.com</a></li>
                                 <li className="line-li"><a href="#" className="line"></a></li>
                             </ul>
                         </div>

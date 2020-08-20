@@ -56,12 +56,14 @@ h2 {
 
 .cus-nav .uk-navbar-nav li.resume a span {
   color: #11d9b8;
-  border: 1px solid #11d9b8;
-  padding: 5px 10px 5px 10px;
+  /* border: 1px solid #11d9b8;
+  padding: 5px 10px 5px 10px; */
   /* border-radius: 6px; */
   /* font-weight: 600; */
   text-transform: none;
   font-family: 'PT Mono', monospace;
+  letter-spacing: 1px;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 
@@ -114,16 +116,18 @@ h2 {
 }
 
 #sidemenu .nav-div ul li.resume {
-  margin-top: 45px;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
 #sidemenu .nav-div ul li.resume a span {
   color: #11d9b8;
-  border: 2px solid #11d9b8;
+  /* border: 2px solid #11d9b8; */
   padding: 10px 20px 10px 20px;
   font-weight: 600;
   text-transform: none;
+  /* background-color: #030d1c; */
+  letter-spacing: 1px;
 }
 
 .banner {
@@ -266,15 +270,16 @@ h2 {
   font-family: 'PT Mono', monospace;
 }
 .skill-section .skillset .card {
-  border: 1px solid #11d9b8;
+  /* border: 1px solid #11d9b8; */
   text-align: center;
+  background-color: #030d1c;
 }
 .skill-section .skillset .card p {
   font-family: 'PT Mono', monospace;
   font-size: 20px;
   color: rgb(136, 146, 176);
   margin: 0;
-  padding: 8px 0px;
+  padding: 10px 0px;
 }
 .skill-section .skillset .card p i {
   color: #11d9b8;
@@ -326,9 +331,11 @@ h2 {
   max-width: 300px;
   height: 300px;
   border-radius: 10px;
-  -webkit-box-shadow: 21px 20px 9px 2px rgba(17,217,184,0.6);
+  /* -webkit-box-shadow: 21px 20px 9px 2px rgba(17,217,184,0.6);
   -moz-box-shadow: 21px 20px 9px 2px rgba(17,217,184,0.6);
-  box-shadow: 21px 20px 9px 2px rgba(17,217,184,0.6);
+  box-shadow: 21px 20px 9px 2px rgba(17,217,184,0.6); */
+  -webkit-box-shadow: 8px 8px 18px -4px #11D9B8; 
+  box-shadow: 8px 8px 18px -4px #11D9B8;
   transition: 1s;
 }
 
