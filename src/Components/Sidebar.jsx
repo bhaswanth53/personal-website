@@ -12,9 +12,10 @@ class Sidebar extends Component {
                     <div className="uk-text-center nav-div">
                         <ul className="uk-nav uk-nav-default">
                             <li><AnchorLink offset='100' href="#about-section"><span>01.</span><br/> About</AnchorLink></li>
-                            <li><AnchorLink offset='100' href="#projects-section"><span>02.</span><br/> Skills</AnchorLink></li>
-                            <li><AnchorLink offset='100' href="#projects-section"><span>03.</span><br/> Work</AnchorLink></li>
-                            <li><AnchorLink offset='100' href="#contact-section"><span>04.</span><br/> Contact</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#experience-section"><span>01.</span><br/> Experience</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#projects-section"><span>03.</span><br/> Skills</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#projects-section"><span>04.</span><br/> Work</AnchorLink></li>
+                            <li><AnchorLink offset='100' href="#contact-section"><span>05.</span><br/> Contact</AnchorLink></li>
                             <li className="resume"><a href="https://sourcerer.io/bhaswanth53" target="_blank" rel="noopener noreferrer"><span>Sourcerer</span></a></li>
                             <li className="resume"><a href="http://blog.bhaswanth.com/" target="_blank" rel="noopener noreferrer"><span>Blog</span></a></li>
                         </ul>

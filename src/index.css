@@ -245,6 +245,73 @@ h2 {
   border-bottom: calc(.2px + .05em) solid rgb(23, 42, 69) !important;
 }
 
+/* Experience Section */
+.experience-section {
+  padding: 30px 0px;
+}
+.experience-section .about-head {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.experience-section .about-head span {
+  color: rgb(204, 214, 246);
+  letter-spacing: 1px;;
+}
+
+.experience-section .about-head span label {
+  color: #11d9b8;
+  font-family: 'PT Mono', monospace;
+}
+.experience-section .etabs ul li a {
+  text-transform: none;
+  font-family: 'PT Mono', monospace;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.experience-section .etabs ul li:not(.uk-active) a {
+  color: rgb(204, 214, 246);
+  border-color: rgb(204, 214, 246);
+}
+.experience-section .etabs ul li.uk-active a {
+  color: #11D9B8;
+  border-color: #11D9B8;
+}
+.experience-section .title {
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(204, 214, 246);
+  font-weight: 600;
+  margin: 0;
+}
+.experience-section .title span {
+  color: #11D9B8;
+}
+.experience-section .label {
+  color: rgb(136, 146, 176);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.experience-section .roles {
+  list-style: disc;
+  display: table;
+}
+.experience-section .roles li {
+  color: rgb(136, 146, 176);
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  display: table-row;
+  margin:0 0 10px 0;
+}
+.experience-section .roles li:before {
+  display: table-cell;
+  content: ' \25CF';
+  color: #11D9B8;
+  padding-right: 15px;
+}
+/* End of Experience section */
+
 /* Skill Section */
 .skill-section {
   padding: 20px;
@@ -572,6 +639,73 @@ h2 {
     transform: translate(24px, 0);
   }
 }
+
+/* Freelance Section */
+
+.freelance-section {
+  padding: 0px 0px 30px 0px;
+}
+.freelance-section .project {
+  margin: 20px 0px;
+}
+.freelance-section .card {
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+}
+.freelance-section .card .overlay {
+  width: 100%;
+  height: inherit;
+  background-color: rgba(17, 217, 184, 0.3);
+}
+.freelance-section p.title {
+  color: rgb(204, 214, 246);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+}
+.freelance-section .label {
+  font-size: 13px;
+  color: #11d9b8;
+  margin: 0;
+  font-family: 'PT Mono', monospace;
+  letter-spacing: 1px;
+}
+.freelance-section .description {
+  padding: 15px;
+  background-color: rgb(23, 42, 69);
+  color: rgb(136, 146, 176);
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.freelance-section .technologies {
+  padding: 15px 0px;
+}
+.freelance-section .technologies span {
+  color: #11d9b8;
+  font-size: 13px;
+  /* border: 1px solid #11d9b8; */
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  font-family: 'PT Mono', monospace;
+  background-color: #030d1c;
+  text-transform: none;
+}
+.freelance-section .actions a {
+  font-size: 15px;
+  color: rgb(204, 214, 246);
+}
+.freelance-section .actions a:hover {
+  text-decoration: none;
+}
+.freelance-section .project .uk-first-column {
+  padding: 0;
+}
+/* End of Freelance Section */
 
 /* Footer */
 footer {

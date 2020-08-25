@@ -13,7 +13,7 @@ class Skills extends Component {
                                 </div>
                             </div>
                             <div className="uk-width-2-3@m">
-                                <h3 className="uk-heading-line about-head"><span><label>02.</label> My Top Skills</span></h3>
+                                <h3 className="uk-heading-line about-head"><span><label>03.</label> My Top Skills</span></h3>
                                 <div className="skillset" data-uk-grid>
                                     <div className="uk-width-1-2@m">
                                         <div className="card">
@@ -35,9 +35,14 @@ class Skills extends Component {
                                             <p><i className="fab fa-laravel"></i>PHP & Laravel</p>
                                         </div>
                                     </div>
-                                    <div className="uk-width-1-1@m">
+                                    <div className="uk-width-1-2@m">
                                         <div className="card">
-                                            <p><i className="fab fa-searchengin"></i>Search Engine Optimization</p>
+                                            <p><i className="fab fa-searchengin"></i>SEO</p>
+                                        </div>
+                                    </div>
+                                    <div className="uk-width-1-2@m">
+                                        <div className="card">
+                                            <p><i className="fas fa-globe"></i>Website Maintainance</p>
                                         </div>
                                     </div>
                                 </div>
